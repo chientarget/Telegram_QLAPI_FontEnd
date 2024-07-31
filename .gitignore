@@ -1,0 +1,6 @@
+!/backend/node_modules/
+!/frontend/.nuxt/
+
+!/frontend/.output/
+
+!/frontend/node_modules/
