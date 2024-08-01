@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4b7e243-9ef6-4ea2-9211-dd00b5e033ed" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +172,7 @@
       <workItem from="1722425468629" duration="8853000" />
       <workItem from="1722434767921" duration="21945000" />
       <workItem from="1722485402381" duration="5184000" />
-      <workItem from="1722498261133" duration="1589000" />
+      <workItem from="1722498261133" duration="3066000" />
     </task>
     <task id="LOCAL-00001" summary="Mẫu dự án FullStack Fontend: Nuxt, Ant Design, Tailwind, Typescript, Backend: express, mssql( Azue)">
       <option name="closed" value="true" />
@@ -215,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722498665050</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update">
+      <option name="closed" value="true" />
+      <created>1722500821892</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722500821892</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
