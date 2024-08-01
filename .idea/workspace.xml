@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4b7e243-9ef6-4ea2-9211-dd00b5e033ed" name="Changes" comment="Mẫu dự án FullStack Fontend: Nuxt, Ant Design, Tailwind, Typescript, Backend: express, mssql( Azue)" />
+    <list default="true" id="f4b7e243-9ef6-4ea2-9211-dd00b5e033ed" name="Changes" comment="Mẫu dự án FullStack Fontend: Nuxt, Ant Design, Tailwind, Typescript, Backend: express, mssql( Azue)">
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/register.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,30 +47,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WebstormProjects/Telegram_QLAPI_FontEnd/frontend&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev (1).executor&quot;: &quot;Run&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\WebstormProjects\\Telegram_QLAPI_FontEnd\\backend\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/WebstormProjects/Telegram_QLAPI_FontEnd/frontend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev (1).executor": "Run",
+    "npm.dev.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "ts.external.directory.path": "D:\\WebstormProjects\\Telegram_QLAPI_FontEnd\\backend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;azure&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "azure"
     ],
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+    "vue.recent.templates": [
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WebstormProjects\Telegram_QLAPI_FontEnd\frontend" />
@@ -165,7 +170,8 @@
       <option name="presentableId" value="Default" />
       <updated>1722425463869</updated>
       <workItem from="1722425468629" duration="8853000" />
-      <workItem from="1722434767921" duration="21799000" />
+      <workItem from="1722434767921" duration="21945000" />
+      <workItem from="1722485402381" duration="1256000" />
     </task>
     <task id="LOCAL-00001" summary="Mẫu dự án FullStack Fontend: Nuxt, Ant Design, Tailwind, Typescript, Backend: express, mssql( Azue)">
       <option name="closed" value="true" />
@@ -183,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722457247185</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Mẫu dự án FullStack Fontend: Nuxt, Ant Design, Tailwind, Typescript, Backend: express, mssql( Azue)">
+      <option name="closed" value="true" />
+      <created>1722457372965</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722457372965</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
