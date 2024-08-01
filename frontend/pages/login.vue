@@ -4,19 +4,18 @@
       <h1 class="text-3xl font-bold text-center mb-6">Đăng nhập</h1>
       <a-form :model="formState" @finish="onFinish">
         <a-form-item name="email" :rules="[{ required: true, message: 'Vui lòng nhập email!' }]">
-          <a-input v-model="formState.email" placeholder="Số điện thoại/Email" class="rounded-none"/>
+          <a-input v-model:value="formState.email" placeholder="Số điện thoại/Email" class="rounded-none"/>
         </a-form-item>
         <a-form-item name="password" :rules="[{ required: true, message: 'Vui lòng nhập mật khẩu!' }]">
-          <a-input-password v-model="formState.password" placeholder="Mật khẩu" class="rounded-none"/>
+          <a-input-password v-model:value="formState.password" placeholder="Mật khẩu" class="rounded-none"/>
         </a-form-item>
         <a-form-item>
-          <a-checkbox v-model="formState.remember">Tôi không phải là người máy</a-checkbox>
+          <a-checkbox v-model:checked="formState.remember">Tôi không phải là người máy</a-checkbox>
         </a-form-item>
         <div class="flex justify-between items-center mb-4">
           <router-link to="/login" class="text-red-600">Quên mật khẩu?</router-link>
         </div>
-        <a-button type="primary" html-type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white rounded-none"
-                  :loading="loading">
+        <a-button type="primary" html-type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white rounded-none" :loading="loading">
           Đăng nhập
         </a-button>
       </a-form>
@@ -28,7 +27,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import {ref, reactive} from 'vue';
 import {useRouter} from 'vue-router';
 import {message} from 'ant-design-vue';
@@ -56,7 +55,7 @@ const onFinish = async () => {
     const data = await response.json();
     if (response.ok) {
       message.success('Đăng nhập thành công!');
-      router.push('/login'); // Redirect to the dashboard or another page
+      await router.push('/');
     } else {
       message.error(data.message || 'Đăng nhập thất bại');
     }

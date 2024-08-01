@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4b7e243-9ef6-4ea2-9211-dd00b5e033ed" name="Changes" comment="Mẫu dự án FullStack Fontend: Nuxt, Ant Design, Tailwind, Typescript, Backend: express, mssql( Azue)">
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="f4b7e243-9ef6-4ea2-9211-dd00b5e033ed" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/frontend/components/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/Sidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/layouts/MainLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/layouts/error.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pages/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pages/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pages/Profile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/16591ead-d088-4dcf-9e76-a0cd9ff8454b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/16591ead-d088-4dcf-9e76-a0cd9ff8454b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,35 +55,45 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2k0fYYaoawg6EJFtvFPzwvP8zO3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/WebstormProjects/Telegram_QLAPI_FontEnd/frontend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev (1).executor": "Run",
-    "npm.dev.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
-    "ts.external.directory.path": "D:\\WebstormProjects\\Telegram_QLAPI_FontEnd\\backend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WebstormProjects/Telegram_QLAPI_FontEnd/frontend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Backend dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.Frontend dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.build (1).executor&quot;: &quot;Run&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev (1).executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.generate.executor&quot;: &quot;Run&quot;,
+    &quot;npm.postinstall.executor&quot;: &quot;Run&quot;,
+    &quot;npm.preview.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\WebstormProjects\\Telegram_QLAPI_FontEnd\\backend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "azure"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;azure&quot;
     ],
-    "vue.recent.templates": [
-      "Vue Composition API Component"
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WebstormProjects\Telegram_QLAPI_FontEnd\frontend" />
@@ -79,18 +102,18 @@
       <recent name="D:\WebstormProjects\Telegram_QLAPI_FontEnd\backend\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev (1)">
-    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
+  <component name="RunManager" selected="npm.Backend dev">
+    <configuration name="Backend dev" type="js.build_tools.npm" temporary="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
       <command value="run" />
       <scripts>
-        <script value="build" />
+        <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="Frontend dev" type="js.build_tools.npm" temporary="true">
       <package-json value="$PROJECT_DIR$/frontend/package.json" />
       <command value="run" />
       <scripts>
@@ -100,18 +123,8 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="dev" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="generate" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
+    <configuration name="Frontend generate" type="js.build_tools.npm" temporary="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
       <command value="run" />
       <scripts>
         <script value="generate" />
@@ -120,8 +133,8 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="postinstall" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
+    <configuration name="Frontend postinstall" type="js.build_tools.npm" temporary="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
       <command value="run" />
       <scripts>
         <script value="postinstall" />
@@ -130,8 +143,8 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="preview" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
+    <configuration name="preview" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
       <command value="run" />
       <scripts>
         <script value="preview" />
@@ -141,16 +154,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.build" />
-      <item itemvalue="npm.dev" />
-      <item itemvalue="npm.generate" />
       <item itemvalue="npm.preview" />
-      <item itemvalue="npm.postinstall" />
-      <item itemvalue="npm.dev (1)" />
+      <item itemvalue="npm.Frontend dev" />
+      <item itemvalue="npm.Backend dev" />
+      <item itemvalue="npm.Frontend generate" />
+      <item itemvalue="npm.Frontend postinstall" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.Frontend dev" />
+        <item itemvalue="npm.preview" />
+        <item itemvalue="npm.Backend dev" />
+        <item itemvalue="npm.Frontend postinstall" />
+        <item itemvalue="npm.Frontend generate" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +187,8 @@
       <updated>1722425463869</updated>
       <workItem from="1722425468629" duration="8853000" />
       <workItem from="1722434767921" duration="21945000" />
-      <workItem from="1722485402381" duration="1256000" />
+      <workItem from="1722485402381" duration="5184000" />
+      <workItem from="1722498261133" duration="374000" />
     </task>
     <task id="LOCAL-00001" summary="Mẫu dự án FullStack Fontend: Nuxt, Ant Design, Tailwind, Typescript, Backend: express, mssql( Azue)">
       <option name="closed" value="true" />
@@ -197,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722457372965</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update">
+      <option name="closed" value="true" />
+      <created>1722486850458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722486850458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +230,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mẫu dự án FullStack Fontend: Nuxt, Ant Design, Tailwind, Typescript, Backend: express, mssql( Azue)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mẫu dự án FullStack Fontend: Nuxt, Ant Design, Tailwind, Typescript, Backend: express, mssql( Azue)" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>

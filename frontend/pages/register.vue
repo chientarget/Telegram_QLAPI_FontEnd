@@ -4,27 +4,27 @@
       <h1 class="text-3xl font-bold text-center mb-6">Đăng ký</h1>
       <a-form :model="formState" @finish="onFinish">
         <a-form-item name="username" :rules="[{ required: true, message: 'Vui lòng nhập họ và tên!' }]">
-          <a-input v-model="formState.username" placeholder="Tên đăng nhập" class="rounded-none"/>
+          <a-input v-model:value="formState.username" placeholder="Tên đăng nhập" class="rounded-none"/>
         </a-form-item>
         <a-form-item name="phone" :rules="[{ required: true, message: 'Vui lòng nhập số điện thoại!' }]">
-          <a-input v-model="formState.phone" placeholder="Số điện thoại" class="rounded-none"/>
+          <a-input v-model:value="formState.phone" placeholder="Số điện thoại" class="rounded-none"/>
         </a-form-item>
         <a-form-item name="email" :rules="[{ required: true, message: 'Vui lòng nhập email!' }]">
-          <a-input v-model="formState.email" placeholder="Email" class="rounded-none"/>
+          <a-input v-model:value="formState.email" placeholder="Email" class="rounded-none"/>
         </a-form-item>
-        <a-form-item name="password" :rules="[{ required: true, message: 'Vui lòng nhập mật khẩu!' }]">
-          <a-input-password v-model="formState.password" placeholder="Mật khẩu" class="rounded-none"/>
+        <a-form-item name:value="password" :rules="[{ required: true, message: 'Vui lòng nhập mật khẩu!' }]">
+          <a-input-password v-model:value="formState.password" placeholder="Mật khẩu" class="rounded-none"/>
         </a-form-item>
         <a-form-item name="confirmPassword" :rules="[{ required: true, message: 'Vui lòng nhập lại mật khẩu!' }]">
-          <a-input-password v-model="formState.confirmPassword" placeholder="Nhập lại mật khẩu" class="rounded-none"/>
+          <a-input-password v-model:value="formState.confirmPassword" placeholder="Nhập lại mật khẩu" class="rounded-none"/>
         </a-form-item>
         <a-form-item>
-          <a-checkbox v-model="formState.agreeToTerms">
+          <a-checkbox v-model:checked="formState.agreeToTerms">
             Tôi đồng ý với <a href="#" class="text-red-600">Điều khoản và Chính sách bảo mật</a> bảo mật và xử lý dữ liệu cá
           </a-checkbox>
         </a-form-item>
         <a-form-item>
-          <a-checkbox v-model="formState.isOver16">
+          <a-checkbox v-model:checked="formState.isOver16">
             Xác nhận khách hàng trên 16 tuổi để có thể sử dụng dịch vụ
           </a-checkbox>
         </a-form-item>
@@ -40,7 +40,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import {ref, reactive} from 'vue';
 import {useRouter} from 'vue-router';
 import {message} from 'ant-design-vue';
