@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4b7e243-9ef6-4ea2-9211-dd00b5e033ed" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/frontend/components/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/components/Sidebar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/layouts/MainLayout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/layouts/error.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/404.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/Dashboard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/Profile.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/16591ead-d088-4dcf-9e76-a0cd9ff8454b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/16591ead-d088-4dcf-9e76-a0cd9ff8454b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/register.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +173,7 @@
       <workItem from="1722425468629" duration="8853000" />
       <workItem from="1722434767921" duration="21945000" />
       <workItem from="1722485402381" duration="5184000" />
-      <workItem from="1722498261133" duration="374000" />
+      <workItem from="1722498261133" duration="1589000" />
     </task>
     <task id="LOCAL-00001" summary="Mẫu dự án FullStack Fontend: Nuxt, Ant Design, Tailwind, Typescript, Backend: express, mssql( Azue)">
       <option name="closed" value="true" />
@@ -222,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722486850458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update">
+      <option name="closed" value="true" />
+      <created>1722498665050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722498665050</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
